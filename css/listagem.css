@@ -1,0 +1,49 @@
+@import url(/css/style.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--cor-principal);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+ max-width: 640px;
+ margin: 50px auto;
+ background: #dfe5e4;
+ padding: 20px;
+ border-radius: 10px;
+}
+
+.cadastrar{
+    color: var(--branco);
+    background-color: var(--cor-principal);
+    text-decoration: none;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-radius: 6px;
+}
+
+.cadastrar:hover{
+    background-color: #175e66;
+
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.Tabela th, .Tabela td {
+    padding: 10px; 
+    text-align: left;
+    border: 1px solid #ccc; 
+}
+
+.cadastrar {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}

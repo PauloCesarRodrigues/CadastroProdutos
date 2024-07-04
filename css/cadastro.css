@@ -1,0 +1,91 @@
+@import url(/css/style.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--cor-principal);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+
+.container{
+ max-width: 640px;
+ margin: 50px auto;
+ background: #dfe5e4;
+ padding: 20px;
+ border-radius: 10px;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--cor-principal);
+}
+
+form button{
+    border:none;
+    color: #dfe5e4;
+    background: #2ebdcd;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: #228590;
+}
+
+.formulario__opcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5em;
+    gap: 20px;
+}
+
+.formulario__opcoes input[type="radio"]{
+    margin-right: -5px;
+    width: auto;
+}
+
+.opcoes__opcao:checked{
+    margin-right: -5px;
+}
+
+label[for="disponivel"],
+label[for="naodisponivel"]{
+
+    display: inline;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+input[type="radio"]:focus{
+    outline: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.formulario__enviar{
+    color: var(--branco);
+}
